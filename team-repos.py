@@ -6,9 +6,6 @@ import pprint
 import requests
 from tqdm import tqdm
 
-# First create a Github instance:
-# using an accessteam = []
-
 pp = pprint.PrettyPrinter(indent=4)
 parser = argparse.ArgumentParser(description='I DO STUFF')
 parser.add_argument('-t', '--token', help='Token we are using to authenticate', required=True)
