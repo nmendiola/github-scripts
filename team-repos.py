@@ -14,7 +14,7 @@ args = parser.parse_args()
 g = Github(args.token)
 organization = g.get_organization(args.organization)
 auth_headers = {'Accept': 'application/vnd.github.nebula-preview+json', 'Authorization': 'token ' + args.token}
-team_df = pd.DataFrame(columns=['Group Visible Name', 'Path', 'Group Visibility'])
+team_df = pd.DataFrame(columns=['Group Visible Name', 'Path', 'Group Privacy'])
 repo_df = pd.DataFrame(columns=['Source url', 'Target group path', 'Project Visible Name', 'Project path', 'Project Visibility'])
 
 team_search = input("What team do you want get info on? ")

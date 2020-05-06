@@ -1,0 +1,6 @@
+pygithub
+pandas
+argparse
+pprint
+requests
+tqdm
